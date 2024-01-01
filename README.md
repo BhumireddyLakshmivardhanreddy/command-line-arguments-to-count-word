@@ -27,8 +27,9 @@ with open(sys.argv[1],'r') as f:
         for line in f:
             word=line.split()
             count+=len(word)
-print("Word Count in File=",count)         
-### OUTPUT:
+print("Word Count in File=",count)
+      
+## OUTPUT:
 
 ![WORD](https://github.com/BhumireddyLakshmivardhanreddy/command-line-arguments-to-count-word/assets/148514637/eec3fa41-e2db-4909-9f49-c9394ee3e55c)
 
